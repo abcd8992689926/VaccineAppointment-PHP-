@@ -7,10 +7,10 @@
     $NHI = $NHI_1.$NHI_2.$NHI_3;
     //連接資料庫
     $dbms='mysql';
-    $host='127.0.0.1';
-    $dbName='vaccine_appointment';
-    $user='root';
-    $pass='takming';
+    $host='us-cdbr-east-04.cleardb.com';
+    $dbName='heroku_637c771d3a09e83';
+    $user='bf7135d612ad3a';
+    $pass='5e90df87';
     $dsn="$dbms:host=$host;dbname=$dbName";
     $dbh = new PDO($dsn, $user, $pass);
     //查詢資料
