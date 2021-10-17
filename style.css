@@ -1,0 +1,98 @@
+body{
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+    margin:0 0;
+}
+.btn{
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    font-size: 80pt;
+    border-radius:30px;
+    user-select:none;
+    float: left;
+    text-align: center;
+    
+}
+#left_btn{
+    background-color: lightblue;
+    margin: 13% 0 0 25%; 
+}
+#right_btn{
+    background-color: lightcoral;
+    margin: 13% 0 0 70pt;
+}
+#left_btn:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+#right_btn:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+#log_background{
+    width: 900pt;
+    height: 500pt;
+    background-color: turquoise;
+    border-radius:90px;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+}
+#content{
+    color: white;
+    font-size: 30pt;
+    user-select:none;
+}
+#content p{
+    margin-left: 100pt;
+}
+#id_input{
+    font-size: 28pt;
+    border-style:none none solid none;
+    background-color:transparent;
+    position: relative;
+    left: 30pt;
+}
+.NHI_id_input{
+    font-size: 28pt;
+    border-style:none none solid none;
+    background-color:transparent;
+    margin-left: 30pt;
+}
+#id_input:focus{
+    outline: none;
+    border: 3px solid rgb(134, 148, 161);
+}
+.NHI_id_input:focus{
+    outline: none;
+    border: 3px solid rgb(134, 148, 161);
+}
+#btn_box{
+    width: 200px;
+    height: 50px;
+    border-radius:10px;
+    margin: auto;
+    position: relative;
+    top: 40pt;
+    background: white;
+    border: 3px solid black;
+    font-size: 20pt;
+    text-align: center;
+    line-height: 50px;
+}
+#btn_box a{
+    display: block;
+}
+#btn_box:hover{
+    background: black;
+}
+#btn_box a:link{
+    text-decoration:none;
+    color: black;
+}
+#btn_box a:hover{
+    color: white;
+}
+a:visited{
+    color: black;
+}
