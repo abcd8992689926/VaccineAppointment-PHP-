@@ -4,9 +4,7 @@
 ?>
 <html>
 <head>
-<title>
-Test
-</title>
+<title>疫苗預約平台</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
