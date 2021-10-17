@@ -9,7 +9,7 @@ Test
 </title>
 <link rel="stylesheet" href="style.css">
 </head>
-<script src="http://apps.bdimg.com/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <?php
         if (isset($_SESSION["login"]) && $_SESSION["login"] == true):
