@@ -16,5 +16,15 @@
     "mongoose": "^4.1.0",
     "path": "^0.11.14",
     "serve-favicon": "^2.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcd8992689926/VaccineAppointment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/abcd8992689926/VaccineAppointment/issues"
+  },
+  "homepage": "https://github.com/abcd8992689926/VaccineAppointment#readme"
 }
