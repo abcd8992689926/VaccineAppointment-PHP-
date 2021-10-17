@@ -13,7 +13,7 @@ Test
 <body>
         <?php
                 if (isset($_SESSION["login"]) && $_SESSION["login"] == true):
-                    header('Location:./choice.php');
+                    header('Location:/choice.php');
                 else:
         ?>
         <div id="log_background">
@@ -56,10 +56,10 @@ Test
             });
             //傳送表單
             function send_form() {
-                var url = "./login_check.php";
+                var url = "/login_check.php";
                 $.post( url, $( "#form_id" ).serialize(), function ( data ) {
                     if (data=="verify"){
-                        window.location.href='./choice.php';  
+                        window.location.href='/choice.php';  
                     }
                     else{
                         alert("輸入的資料有誤，請重新輸入");

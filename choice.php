@@ -30,15 +30,15 @@ Test
 ?>
 <script type="text/javascript">
         function logout() {
-                var url = "./logout.php";
+                var url = "/logout.php";
                 $.post( url, function ( data ) {
-                        window.location.href = "./index.php";
+                        window.location.href = "/index.php";
                 });
         }
 </script>
 <?php
         else:
-                header('Location:./index.php');
+                header('Location:/index.php');
         endif;
 ?>
 </html>
