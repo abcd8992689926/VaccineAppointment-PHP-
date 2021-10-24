@@ -31,7 +31,15 @@
         }
         //轉址至appointment
         function appointment() {
-                window.location.href = "appointment.php";
+                var url = "qualification_check.php";
+                $.post( url, function ( data ) {
+                    if (data=="verify"){
+                        window.location.href='appointment.php';  
+                    }
+                    else{
+                        alert("您不符合本輪預約資格");
+                    }
+                });
         }
 </script>
 <?php
